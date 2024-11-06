@@ -13,3 +13,4 @@ print(find_square(7))
 def concat2strings(str1,str2):
     return str1+" "+str2
 print(concat2strings("Hi","Dear"))
+print(concat2strings("Welcome","Allll"))
