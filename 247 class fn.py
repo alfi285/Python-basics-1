@@ -5,7 +5,7 @@
 #create a method in the Person class?
 #Insert a function that prints a greeting, and execute it on the p1 object ?
 
-class person:
+class Person:
     def __init__(self,name,age):
         self.name = name
         self.age = age
@@ -13,6 +13,6 @@ class person:
     def display(self):
         print("Hello my name is " + self.name)
 
-p1 = person("Alfi",30)
+p1 = Person("Alfi",30)
 
 p1.display()
