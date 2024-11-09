@@ -30,6 +30,7 @@ class Student(Person):
 
     def printdetails(self):
         print(f"{self.fname} {self.lname}-Graduation year:{self.year}")
+
 s1 = Student("Anna","Smith",2023)
 s1.printdetails()
 
