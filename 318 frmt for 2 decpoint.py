@@ -13,3 +13,15 @@ print(ixt)
 
 txt = f"The price is {34:.2f} dollars"
 print(txt)
+
+#Perform operations in F - string
+
+#Perform a math operation in the placeholder and return the result
+
+tx = f"The price is {10 * 20} rupees"
+print(tx)
+
+pr = 59
+tax = 0.25
+t = f"The price is {pr + (pr * tax)} rupees"
+print(t)
